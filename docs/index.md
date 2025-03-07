@@ -16,14 +16,12 @@ Este sitio contiene la documentación de todas las prácticas realizadas en el c
 ## 📖 Prácticas
 Aquí están listadas todas las prácticas disponibles:
 
-1. [Práctica 1 - Introducción a MkDocs](docs/practica1.md)
-2. [Práctica 2 - Personalización del Theme](docs/practica2.md)
-3. [Práctica 3 - Configuración Avanzada](docs/practica3.md)
-4. [Práctica 4 - Uso de Plugins](docs/practica4.md)
-5. [Práctica 5 - Implementación de Búsqueda](docs/practica5.md)
-6. [Práctica 6 - Versionado de Documentación](docs/practica6.md)
-7. [Práctica 7 - Integración con GitHub Pages](docs/practica7.md)
-8. [Práctica 8 - Añadiendo Comentarios con Disqus](docs/practica8.md)
+1. [Practica 5.4 - Subida de un nginx a Docker Hub](docs/practica1.md)
+2. [Práctica 5.2 - Instalacion de Wordpress en contenedores Dockers](docs/practica2.md)
+3. [Práctica 5.1 - Docker y Docker compose con prestashop](docs/practica3.md)
+4. [Práctica 4.5 - Terraform](docs/practica4.md)
+5. [Práctica 4.3 - Instalacion de instancias con Python y AWS](docs/practica5.md)
+6. [Práctica 4.1 - Instalacion de instancias con AWS](docs/practica6.md)
 
 ## 📬 Contacto
 Si tienes dudas o sugerencias, puedes abrir un *issue* en el repositorio o contactarme directamente. ¡Gracias por visitar la documentación! 🚀
