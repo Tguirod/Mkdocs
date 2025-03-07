@@ -1,17 +1,44 @@
-# Welcome to MkDocs
+# Bienvenido a Mi Documentación
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Este es el repositorio de mi documentación basado en **MkDocs** con el tema **Material**.
 
-## Commands
+📌 **Repositorio en GitHub:** [Tguirod/Mkdocs](https://github.com/Tguirod/Mkdocs)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 📖 Descripción
+Este sitio contiene la documentación de todas las prácticas realizadas en el curso. Cada práctica incluye instrucciones detalladas, ejemplos y código relevante para facilitar el aprendizaje y la implementación.
 
-## Project layout
+## 🚀 Tecnologías Utilizadas
+- **MkDocs**: Generador de documentación estática.
+- **Material for MkDocs**: Tema avanzado para mejorar la visualización.
+- **Markdown**: Lenguaje de marcado para escribir documentación de forma sencilla.
+- **GitHub Pages**: Hosting gratuito para documentación estática.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 📖 Prácticas
+Aquí están listadas todas las prácticas disponibles:
+
+1. [Práctica 1 - Introducción a MkDocs](docs/practica1.md)
+2. [Práctica 2 - Personalización del Theme](docs/practica2.md)
+3. [Práctica 3 - Configuración Avanzada](docs/practica3.md)
+4. [Práctica 4 - Uso de Plugins](docs/practica4.md)
+5. [Práctica 5 - Implementación de Búsqueda](docs/practica5.md)
+6. [Práctica 6 - Versionado de Documentación](docs/practica6.md)
+7. [Práctica 7 - Integración con GitHub Pages](docs/practica7.md)
+8. [Práctica 8 - Añadiendo Comentarios con Disqus](docs/practica8.md)
+
+## 📌 Cómo Usar Esta Documentación
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/Tguirod/Mkdocs.git
+   ```
+2. Instala MkDocs y dependencias:
+   ```bash
+   pip install mkdocs-material
+   ```
+3. Inicia el servidor local:
+   ```bash
+   mkdocs serve
+   ```
+4. Accede a `http://127.0.0.1:8000/` para ver la documentación en tu navegador.
+
+## 📬 Contacto
+Si tienes dudas o sugerencias, puedes abrir un *issue* en el repositorio o contactarme directamente. ¡Gracias por visitar la documentación! 🚀
