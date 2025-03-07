@@ -30,9 +30,6 @@ repo_url: "https://github.com/Tguirod/Mkdocs"
 repo_name: "Tguirod/Mkdocs"
 edit_uri: "edit/main/docs/"
 
-extra_css:
-  - "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"  # Google Fonts CSS
-
 extra:
   alternate:
     - name: "Español"
