@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../practica1/">
       
       
-        <link rel="next" href="../practica2/">
+        <link rel="next" href="../practica3/">
       
       
       <link rel="icon" href="../assets/favicon.ico">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Práctica 5.4 - Subida de un nginx a Docker Hub - Repositorio de practicas de tomas</title>
+        <title>Práctica 5.2 - Instalación de Wordpress en contenedores Docker - Repositorio de practicas de tomas</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#practica54" class="md-skip">
+        <a href="#practica52" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Práctica 5.4 - Subida de un nginx a Docker Hub
+              Práctica 5.2 - Instalación de Wordpress en contenedores Docker
             
           </span>
         </div>
@@ -301,6 +301,28 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../practica1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Práctica 5.4 - Subida de un nginx a Docker Hub
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -313,30 +335,19 @@
         
       
       
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
   
   <span class="md-ellipsis">
-    Práctica 5.4 - Subida de un nginx a Docker Hub
+    Práctica 5.2 - Instalación de Wordpress en contenedores Docker
     
   </span>
   
 
-      </a>
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../practica2/" class="md-nav__link">
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -346,6 +357,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#variables-y-dominio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variables y Dominio
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacion-de-wordpress-en-docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalacion de Wordpress en docker
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comprobaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comprobaciones:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -466,6 +524,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#variables-y-dominio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variables y Dominio
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacion-de-wordpress-en-docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalacion de Wordpress en docker
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comprobaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comprobaciones:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -483,53 +576,92 @@
   
 
 
-<h1 id="practica54">Practica5.4</h1>
-<p>En esta practica vamos a realizar una subida de un nginx a docker hub para posteriormente descargarnos nuestro respositorio de dockerhub y instalar una web estatica.</p>
-<h1 id="configuracion-del-docker-hub">Configuracion del Docker hub</h1>
-<p>Tendremos que crearnos una cuenta en docker hub para poder utilizarla . Deberemos conseguir una clave secreta para usarla despues para publicar nuestros repositorios dockers
-Tambien tendremos que agregar nuestra clave secreta a las variables del github.</p>
-<h2 id="dockerfile">DockerFile</h2>
-<p>Tendremos que usar un archivo dockerfile que es donde estara la configuracion para tener servicio de Nginx con la siguiente aplicación web estática</p>
-<pre><code>FROM ubuntu:24.04
+<h1 id="practica52">Practica5.2</h1>
+<p>En esta practica se realizara la instalacion de wordpress en contenedores dockers.</p>
+<h2 id="variables-y-dominio">Variables y Dominio</h2>
+<p>Necesitaremos un archivo de variables .env donde tendremos las variables que vamos a utilizar.</p>
+<p>Tambien Necesitaremos tambien un dominio para que lets encrypt pueda usarlo</p>
+<p><img alt="" src="fotos/3.png" /></p>
+<h2 id="instalacion-de-wordpress-en-docker">Instalacion de Wordpress en docker</h2>
+<p>El archivo YML que utilizaremos contendra la misma informacion que hemos utilizado en la practica anterior pero cambiaremos prestashop por la instalacion de wordpress asi como en el https-portal tendremos que poner el puerto 8080.</p>
+<pre><code class="language-YML">version: '3.4'
 
-LABEL AUTHOR=&quot;Tomas guijarro Rodriuez &quot;
-LABEL DESCRIPTION=&quot;Esto es una prueba de instalacion&quot;
+services:
+  mysql:
+    image: mysql:9.1
+    ports: 
+      - 3306:3306
+    environment: 
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+    volumes: 
+      - mysql_data:/var/lib/mysql
+    networks: 
+      - backend-network
+    restart: always
 
-ENV WORDPRESS_DB_HOST=mysql
+  phpmyadmin:
+    image: phpmyadmin:5.2.1
+    ports:
+      - 8080:80
+    environment: 
+      - PMA_ARBITRARY=1
+    networks: 
+      - backend-network
+      - frontend-network
+    restart: always
+    depends_on: 
+      - mysql
 
 
-RUN apt update &amp;&amp; \
-    apt install nginx -y &amp;&amp; \
-    apt install git -y &amp;&amp; \
-    rm -rf /var/lib/apt/list/*
+  wordpress:
+    image: bitnami/wordpress:latest
+    container_name: wordpress
+    environment:
+      - WORDPRESS_DATABASE_HOST=${WORDPRESS_DATABASE_HOST}
+      - WORDPRESS_DATABASE_USER=${WORDPRESS_DATABASE_USER}
+      - WORDPRESS_DATABASE_PASSWORD=${WORDPRESS_DATABASE_PASSWORD}
+      - WORDPRESS_DATABASE_NAME=${WORDPRESS_DATABASE_NAME}
+      - WORDPRESS_BLOG_NAME=${WORDPRESS_BLOG_NAME}
+      - WORDPRESS_USERNAME=${WORDPRESS_USERNAME}
+      - WORDPRESS_EMAIL=${WORDPRESS_EMAIL}
+    volumes:
+      - wordpress:/var/www/html
+    networks:
+      - frontend-network
+      - backend-network
+    restart: always
+    depends_on:
+      - mysql
 
-RUN git clone https://github.com/josejuansanchez/2048 /app &amp;&amp; \
-    mv /app/* /var/www/html/
-
-EXPOSE 80
-
-CMD [ &quot;nginx&quot;,&quot;-g&quot;, &quot;daemon off;&quot; ]
-</code></pre>
-<h2 id="docker-compose">Docker Compose</h2>
-<p>Una vez que tengamos subido nuestro repositorio de docker a dockerhub vamos a instalar en nuestra maquina de aws una web estatica de prueba sacando la imagen de nuestro repositorio para comprobar que funciona correctamente.</p>
-<pre><code>services:
-  web:
-    image: tguirod275/2048
-    container_name: pruebaipestatica
+  https-portal:
+    image: steveltn/https-portal:1
     ports:
       - 80:80
+      - 443:443
     restart: always
+    environment:
+      DOMAINS: &quot;${DOMAIN} -&gt; http://wordpress:8080&quot;
+      STAGE: 'production' # Don't use production until staging works
+      # FORCE_RENEW: 'true'
+    networks:
+      - frontend-network
+
+volumes:
+  mysql_data:
+  wordpress:
+
+networks: 
+  backend-network:
+  frontend-network:
 </code></pre>
-<h2 id="comprobaciones">Comprobaciones</h2>
-<p>Primero vamos a comprobar que efectivamente funciona la subida del repositorioa dockerhub. Como podemos comprobar se suben correctamente.</p>
-<p><img alt="" src="../imagenes/practica5.4/1.png" /></p>
-<p>Tambien si accedemos a docker hub veremos que tenemos el repositorio de docker subido</p>
-<p><img alt="" src="../imagenes/practica5.4/2.png" /></p>
-<p><img alt="" src="../imagenes/practica5.4/3.png" /></p>
-<p>Ejecutamos el archivo de docker compose y comprobamos que se ejecuta correctamente.</p>
-<p><img alt="" src="../imagenes/practica5.4/4.png" /></p>
-<p>Una vez ejecutado probamos a acceder  via web de nuestra pagina estatica para comprobar que funciona.</p>
-<p><img alt="" src="../imagenes/practica5.4/5.png" /></p>
+<h2 id="comprobaciones">Comprobaciones:</h2>
+<p>Como podemos comprobar funciona correctamente al entrar en la pagina web de nuestro dominio y con el certificado https</p>
+<p><img alt="" src="../imagenes/practica5.2/1.png" /></p>
+<p>Tambien podemos comprobar que podemos acceder a la web de phpmyadmin</p>
+<p><img alt="" src="../imagenes/practica5.2/2.png" /></p>
 
 
 
@@ -559,7 +691,7 @@ CMD [ &quot;nginx&quot;,&quot;-g&quot;, &quot;daemon off;&quot; ]
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+          <a href="../practica1/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Práctica 5.4 - Subida de un nginx a Docker Hub">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -569,20 +701,20 @@ CMD [ &quot;nginx&quot;,&quot;-g&quot;, &quot;daemon off;&quot; ]
                 Previous
               </span>
               <div class="md-ellipsis">
-                Home
+                Práctica 5.4 - Subida de un nginx a Docker Hub
               </div>
             </div>
           </a>
         
         
           
-          <a href="../practica2/" class="md-footer__link md-footer__link--next" aria-label="Next: Práctica 5.2 - Instalación de Wordpress en contenedores Docker">
+          <a href="../practica3/" class="md-footer__link md-footer__link--next" aria-label="Next: Práctica 5.1 - Docker y Docker Compose con Prestashop">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Práctica 5.2 - Instalación de Wordpress en contenedores Docker
+                Práctica 5.1 - Docker y Docker Compose con Prestashop
               </div>
             </div>
             <div class="md-footer__button md-icon">
