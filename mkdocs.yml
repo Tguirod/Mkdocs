@@ -1,6 +1,59 @@
-site_name: Repositorio de Tomas Guijarro Rodriguez
-nav:
-    - Principal: index.md
-    - Acerca de: about.md
+site_name: "Repositorio de practicas de tomas"
+theme:
+  name: "material"
+  palette:
+    scheme: "light"  # Cambiar el color (dark, light, slate, etc.)
+    primary: "blue"
+    accent: "red"
+  font:
+    text: "Roboto"
+    code: "Fira Code"  # Cambiar la fuente de letra
+  logo: "assets/logo.png"  # Cambiar el logo
+  favicon: "assets/favicon.ico"  # Cambiar los iconos
+  features:
+    - navigation.instant  # Configurar la navegación
+    - navigation.tracking
+    - navigation.expand
+    - search.highlight  # Configurar las búsquedas
+    - search.suggest
+    - version
 
-theme: material
+extra:
+  version:
+    provider: mike  # Configurar el versionado de la documentación
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Tguirod/Mkdocs  # Añadir un repositorio de GitHub
+
+repo_url: "https://github.com/Tguirod/Mkdocs"
+repo_name: "Tguirod/Mkdocs"
+edit_uri: "edit/main/docs/"
+
+extra_javascript:
+  - https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X  # Configurar Google Analytics
+
+extra_css:
+  - stylesheets/extra.css  # Para personalizar más el diseño
+
+plugins:
+  - search
+  - social
+  - tags
+  - git-revision-date-localized
+  - mkdocs-disqus:  # Añadir Disqus
+      shortname: "tu-disqus-shortname"
+
+extra:
+  alternate:
+    - name: "Español"
+      link: "/"
+      lang: "es"  # Cambiar el idioma
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Documentation:
+      - Getting Started: docs/getting-started.md
+      - Customization: docs/customization.md
+
+copyright: "&copy; 2025 Mi Documentación"  # Configurar el pie de página
