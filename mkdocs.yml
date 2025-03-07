@@ -32,14 +32,6 @@ edit_uri: "edit/main/docs/"
 extra_css:
   - stylesheets/extra.css  # Para personalizar más el diseño
 
-plugins:
-  - search
-  - social
-  - tags
-  - git-revision-date-localized
-  - mkdocs-disqus:  # Añadir Disqus
-      shortname: "tu-disqus-shortname"
-
 extra:
   alternate:
     - name: "Español"
