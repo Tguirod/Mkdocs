@@ -129,7 +129,7 @@ Comprobamos que se realiza todo correctamente:
 ![](Fotos/7.png)
 
 
-Comprobamos que funciona la web
+Comprobamos que funciona la web https://tguirod.github.io/Mkdocs/
 ![](Fotos/8.png)
 
 ![](Fotos/9.png)
