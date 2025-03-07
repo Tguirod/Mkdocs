@@ -8,7 +8,6 @@ theme:
   font:
     text: "Calibri"
     code: "Fira code" # Cambiar la fuente de letra
-  logo: "assets/duck-logo.png"  # Cambiar el logo
   favicon: "assets/favicon.ico"  # Cambiar los iconos
   features:
     - navigation.instant  # Configurar la navegación
@@ -25,7 +24,6 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Tguirod/Mkdocs  # Añadir un repositorio de GitHub
-
 repo_url: "https://github.com/Tguirod/Mkdocs"
 repo_name: "Tguirod/Mkdocs"
 edit_uri: "edit/main/docs/"
