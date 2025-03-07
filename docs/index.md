@@ -1,13 +1,13 @@
-# Bienvenido a Mi Documentación
+# Bienvenido al Repositorio de practicas de Tomas
 
 Este es el repositorio de mi documentación basado en **MkDocs** con el tema **Material**.
 
 📌 **Repositorio en GitHub:** [Tguirod/Mkdocs](https://github.com/Tguirod/Mkdocs)
 
 ## 📖 Descripción
-Este sitio contiene la documentación de todas las prácticas realizadas en el curso. Cada práctica incluye instrucciones detalladas, ejemplos y código relevante para facilitar el aprendizaje y la implementación.
+Este sitio contiene la documentación de algunas de las prácticas que he realizado en el curso. Cada práctica incluye instrucciones detalladas, ejemplos y código relevante para facilitar el aprendizaje y la implementación.
 
-## 🚀 Tecnologías Utilizadas
+## 🚀 Tecnologías Utilizadas para esta practica en concreto
 - **MkDocs**: Generador de documentación estática.
 - **Material for MkDocs**: Tema avanzado para mejorar la visualización.
 - **Markdown**: Lenguaje de marcado para escribir documentación de forma sencilla.
