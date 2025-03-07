@@ -40,9 +40,12 @@ extra:
 
 nav:
   - Home: index.md
-  - About: about.md
-  - Documentation:
-      - Getting Started: docs/getting-started.md
-      - Customization: docs/customization.md
+  - Prácticas:
+      - Práctica 5.4 - Subida de un nginx a Docker Hub: practica1.md
+      - Práctica 5.2 - Instalación de Wordpress en contenedores Docker: practica2.md
+      - Práctica 5.1 - Docker y Docker Compose con Prestashop: practica3.md
+      - Práctica 4.5 - Terraform: practica4.md
+      - Práctica 4.3 - Instalación de instancias con Python y AWS: practica5.md
+      - Práctica 4.1 - Instalación de instancias con AWS: practica6.md
 
-copyright: "&copy; 2025 Mi Documentación"  # Configurar el pie de página
+copyright: "&copy; 2025 Repositorio de Tomas"  # Añadir el aviso de copyright aquí
