@@ -30,9 +30,6 @@ repo_url: "https://github.com/Tguirod/Mkdocs"
 repo_name: "Tguirod/Mkdocs"
 edit_uri: "edit/main/docs/"
 
-extra_css:
-  - stylesheets/extra.css  # Para personalizar más el diseño
-
 extra:
   alternate:
     - name: "Español"
