@@ -1,1 +1,6 @@
-site_name: My Docs
+site_name: Repositorio de Tomas Guijarro Rodriguez
+nav:
+    - Principal:
+    - Acerca de: about.md
+
+theme: material
