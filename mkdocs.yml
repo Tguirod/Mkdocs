@@ -6,8 +6,8 @@ theme:
     primary: "indigo"
     accent: "red"
   font:
-    text: "Roboto"
-    code: "Fira Code"  # Cambiar la fuente de letra
+    text: "Calibri"
+    code: "Fira code" # Cambiar la fuente de letra
   logo: "assets/logo.png"  # Cambiar el logo
   favicon: "assets/favicon.ico"  # Cambiar los iconos
   features:
