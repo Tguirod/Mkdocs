@@ -6,9 +6,9 @@ theme:
     primary: "indigo"
     accent: "red"
   font:
-    text: "Calibri"
-    code: "Fira code" # Cambiar la fuente de letra
-  logo: "assets/logo.png"  # Cambiar el logo
+    text: "Roboto"
+    code: "Fira Code"  # Cambiar la fuente de letra
+  logo: "https://mkdocs.org/img/mkdocs-logo.svg"  # Enlace directo al logo de MkDocs
   favicon: "assets/favicon.ico"  # Cambiar los iconos
   features:
     - navigation.instant  # Configurar la navegación
@@ -17,7 +17,7 @@ theme:
     - search.highlight  # Configurar las búsquedas
     - search.suggest
     - version
-    - navigation footer
+    - navigation.footer
 
 extra:
   version:
@@ -31,7 +31,7 @@ repo_name: "Tguirod/Mkdocs"
 edit_uri: "edit/main/docs/"
 
 extra_css:
-  - stylesheets/extra.css  # Para personalizar más el diseño
+  - "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"  # Google Fonts CSS
 
 extra:
   alternate:
