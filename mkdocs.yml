@@ -2,7 +2,7 @@ site_name: "Repositorio de practicas de tomas"
 theme:
   name: "material"
   palette:
-    scheme: "light"  # Cambiar el color (dark, light, slate, etc.)
+    scheme: "dark"  # Cambiar el color (dark, light, slate, etc.)
     primary: "blue"
     accent: "red"
   font:
