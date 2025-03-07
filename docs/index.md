@@ -16,12 +16,12 @@ Este sitio contiene la documentación de algunas de las prácticas que he realiz
 ## 📖 Prácticas
 Aquí están listadas todas las prácticas disponibles:
 
-1. [Practica 5.4 - Subida de un nginx a Docker Hub](docs/practica1.md)
-2. [Práctica 5.2 - Instalacion de Wordpress en contenedores Dockers](docs/practica2.md)
-3. [Práctica 5.1 - Docker y Docker compose con prestashop](docs/practica3.md)
-4. [Práctica 4.5 - Terraform](docs/practica4.md)
-5. [Práctica 4.3 - Instalacion de instancias con Python y AWS](docs/practica5.md)
-6. [Práctica 4.1 - Instalacion de instancias con AWS](docs/practica6.md)
+1. [Practica 5.4 - Subida de un nginx a Docker Hub](practica1.md)
+2. [Práctica 5.2 - Instalacion de Wordpress en contenedores Dockers](practica2.md)
+3. [Práctica 5.1 - Docker y Docker compose con prestashop](practica3.md)
+4. [Práctica 4.5 - Terraform]
+5. [Práctica 4.3 - Instalacion de instancias con Python y AWS]
+6. [Práctica 4.1 - Instalacion de instancias con AWS]
 
 ## 📬 Contacto
 Si tienes dudas o sugerencias, puedes abrir un *issue* en el repositorio o contactarme directamente. ¡Gracias por visitar la documentación! 🚀
