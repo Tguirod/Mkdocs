@@ -91,26 +91,26 @@ networks:
 ## Comprobaciones
 Podemos ver que se ejecuta correctamente y se crean los contenedores correspondientes.
 
-![](fotos/3.png)
+![](imagenes/practica5.1/3.png)
 
 Una vez ejecutado el docker compose accedemos a traves de la paina web y podemos ver que se accede correctamente.
 
-![](fotos/2.png)
+![](imagenes/practica5.1/2.png)
 
 Una vez que accedemos configuramos para comprobar que la base de datos funciona correctamente y siguiente
 
-![](fotos/5.png)
+![](imagenes/practica5.1/5.png)
 
 Se crea y se instala el prestashop correctamente
 
-![](fotos/6.png)
+![](imagenes/practica5.1/6.png)
 
 Y accedemos a la tienda para comprobar que funciona tambien
 
-![](fotos/7.png)
+![](imagenes/practica5.1/7.png)
 
 Borramos la carpeta install para poder acceder a la seccion de administrar tienda y como podemos comprobar funciona correctamente
 
-![](fotos/8.png)
+![](imagenes/practica5.1/8.png)
 
 Con esto dariamos por terminada la practica.

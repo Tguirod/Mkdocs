@@ -50,20 +50,20 @@ services:
 
 Primero vamos a comprobar que efectivamente funciona la subida del repositorioa dockerhub. Como podemos comprobar se suben correctamente.
 
-![](imagenes/1.png)
+![](imagenes/practica5.4/1.png)
 
 Tambien si accedemos a docker hub veremos que tenemos el repositorio de docker subido
 
-![](imagenes/2.png)
+![](imagenes/practica5.4/2.png)
 
 
-![](imagenes/3.png)
+![](imagenes/practica5.4/3.png)
 
 Ejecutamos el archivo de docker compose y comprobamos que se ejecuta correctamente.
 
-![](imagenes/4.png)
+![](imagenes/practica5.4/4.png)
 
 Una vez ejecutado probamos a acceder  via web de nuestra pagina estatica para comprobar que funciona.
 
-![](imagenes/5.png)
+![](imagenes/practica5.4/5.png)
 
