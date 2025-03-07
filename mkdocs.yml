@@ -8,7 +8,7 @@ theme:
   font:
     text: "Calibri"
     code: "Fira code" # Cambiar la fuente de letra
-  logo: "assets/logo.png"  # Cambiar el logo
+  logo: "assets/duck-logo.png"  # Cambiar el logo
   favicon: "assets/favicon.ico"  # Cambiar los iconos
   features:
     - navigation.instant  # Configurar la navegación
