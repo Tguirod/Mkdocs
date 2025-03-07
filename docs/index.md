@@ -25,20 +25,5 @@ Aquí están listadas todas las prácticas disponibles:
 7. [Práctica 7 - Integración con GitHub Pages](docs/practica7.md)
 8. [Práctica 8 - Añadiendo Comentarios con Disqus](docs/practica8.md)
 
-## 📌 Cómo Usar Esta Documentación
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/Tguirod/Mkdocs.git
-   ```
-2. Instala MkDocs y dependencias:
-   ```bash
-   pip install mkdocs-material
-   ```
-3. Inicia el servidor local:
-   ```bash
-   mkdocs serve
-   ```
-4. Accede a `http://127.0.0.1:8000/` para ver la documentación en tu navegador.
-
 ## 📬 Contacto
 Si tienes dudas o sugerencias, puedes abrir un *issue* en el repositorio o contactarme directamente. ¡Gracias por visitar la documentación! 🚀
