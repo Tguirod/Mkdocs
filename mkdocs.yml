@@ -3,7 +3,7 @@ theme:
   name: "material"
   palette:
     scheme: "dark"  # Cambiar el color (dark, light, slate, etc.)
-    primary: "blue"
+    primary: "indigo"
     accent: "red"
   font:
     text: "Roboto"
