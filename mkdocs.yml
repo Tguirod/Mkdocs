@@ -17,6 +17,7 @@ theme:
     - search.highlight  # Configurar las búsquedas
     - search.suggest
     - version
+    - navigation footer
 
 extra:
   version:
