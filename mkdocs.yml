@@ -40,8 +40,5 @@ nav:
       - Práctica 5.4 - Subida de un nginx a Docker Hub: practica1.md
       - Práctica 5.2 - Instalación de Wordpress en contenedores Docker: practica2.md
       - Práctica 5.1 - Docker y Docker Compose con Prestashop: practica3.md
-      - Práctica 4.5 - Terraform:
-      - Práctica 4.3 - Instalación de instancias con Python y AWS:
-      - Práctica 4.1 - Instalación de instancias con AWS:
 
 copyright: "&copy; 2025 Repositorio de Tomas"  # Añadir el aviso de copyright aquí
