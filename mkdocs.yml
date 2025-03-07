@@ -1,6 +1,6 @@
 site_name: Repositorio de Tomas Guijarro Rodriguez
 nav:
-    - Principal:
+    - Principal: index.md
     - Acerca de: about.md
 
 theme: material
