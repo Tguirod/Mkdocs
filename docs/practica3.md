@@ -6,7 +6,7 @@ Para ello primero tendremos que tener una maquina con minimo 20 de espacio
 Necesitaremos nuestro archivo con variables .env que utilizaremos para asginar las variables que vamos a utilizar
 
 Tambien necesitaremos tener un dominio ip :
-![](fotos/1.png)
+![](imagenes/practica5.1/1.png)
 
 ## Instalacion de docker
 

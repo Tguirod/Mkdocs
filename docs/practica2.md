@@ -7,7 +7,7 @@ Necesitaremos un archivo de variables .env donde tendremos las variables que vam
 
 Tambien Necesitaremos tambien un dominio para que lets encrypt pueda usarlo
 
-![](fotos/3.png)
+![](imagenes/practica5.2/3.png)
 
 
 ## Instalacion de Wordpress en docker
